@@ -88,7 +88,7 @@ body {
    .navbar h1 {
     /* width: 70px;
     filter: invert(1); */
-    font-family: cursive;
+    font-family: "Beau Rivage", cursive;;
     font-size: 24px;
     /* letter-spacing: 4px; */
    }
@@ -155,9 +155,10 @@ body {
 }
 
 .hero h1 {
-  font-family: "Beau Rivage", cursive;;
+  font-family: "Beau Rivage", cursive;
   font-size: 70px;
   line-height: 1.1;
+  position: relative;
 }
 
 
@@ -167,9 +168,15 @@ body {
 }
 
 .hero h1 .heiglight {
-    text-shadow: 2px 0px #0000004d, 4px 0px var(--accent), 3px 0px 10px var(--accent), 0px 0px 32px var(--accent);
+    /* text-shadow: 2px 0px #0000004d, 4px 0px var(--accent), 3px 0px 10px var(--accent), 0px 0px 32px var(--accent); */
     animation: heiglight 60s linear ;
     /* filter: hue-rotate(174deg); */
+    position: absolute;
+    top: 25px;
+    background: linear-gradient(
+        181deg, white, #ababab, #343434);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* @keyframes heiglight {
