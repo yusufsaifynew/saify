@@ -51,7 +51,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 22px 80px;
+    padding: 12px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +89,7 @@ body {
     /* width: 70px;
     filter: invert(1); */
     font-family: "Beau Rivage", cursive;;
-    font-size: 24px;
+    font-size: 34px;
     /* letter-spacing: 4px; */
    }
 
