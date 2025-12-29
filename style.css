@@ -476,6 +476,7 @@ body {
     font-weight: 100;
     font-family: math;
     font-size: 18px;
+    color: #d6d6d6;
   }
   
   /* ===== HOVER REVEAL ===== */
@@ -483,6 +484,11 @@ body {
     transform: translateY(60%);
     transition: transform 0.4s ease;
   }
+
+  section {
+    scroll-margin-top: 70px;
+  }
+  
   
   .hover-reveal p {
     color: var(--muted);
